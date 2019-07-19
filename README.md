@@ -30,9 +30,9 @@ cd csdc/installer
 ### 方法二. 通过打包文件安装的方法
 方法二完全使用linux自带的命令
 
-wget -o csdcinstaller.tar.gz https://github.com/CSDCFund/csdc/blob/master/cdsc-linux-amd64.tar.gz?raw=true
+wget -o cdscinstaller.tar.gz https://github.com/CSDCFund/csdc/blob/master/cdsc-linux-amd64.tar.gz?raw=true
 
-tar zvxf csdcinstaller.tar.gz
+tar zvxf cdscinstaller.tar.gz
 
 cd installer
 
@@ -41,7 +41,7 @@ cd installer
 ## 使用
 1. 安装完成后，系统会自动产生一个eswarmXXXXXX(其中XXXXXX是6位数的0－9A－Z的数字)无线网络，密码是默认的Abcd#1234
 2. 安装手机云链客户端
-3. 加入到矿机对应的无线网络
+3. 加入到1所描述的网络矿机对应的无线网络
 4. 通过添加矿机添加此矿机
 
 
