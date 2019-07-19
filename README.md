@@ -9,3 +9,32 @@
 > 应用端开放：开放的SDK，任何企业或个人都可以开发自己的客户端应用
 
 详细的内容请查看[wiki](https://github.com/CSDCFund/csdc/wiki)
+
+
+## 安装
+### git 的安装方法
+
+安装脚本源码位于installer目录下
+git clone https://github.com/CSDCFund/csdc.git
+cd csdc/installer
+./install.sh
+
+git 需要预先安装git包，下面是更简单的方案
+
+### 通过打包文件安装的方法
+
+wget -o csdcinstaller.tar.gz https://github.com/CSDCFund/csdc/blob/master/cdsc-linux-amd64.tar.gz?raw=true
+tar zvxf csdcinstaller.tar.gz
+cd installer
+./install.sh 
+
+## 使用
+1. 安装完成后，系统会自动产生一个eswarmXXXXXX(其中XXXXXX是6位数的0－9A－Z的数字)无线网络，密码是默认的Abcd#1234
+2. 安装手机云链客户端
+3. 加入到矿机对应的无线网络
+4. 通过添加矿机添加此矿机
+
+
+
+
+
