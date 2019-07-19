@@ -12,18 +12,23 @@
 
 
 ## 安装
-### git 的安装方法
+可以使用两种方法来安装云链矿机
+
+### 方法一. git 的安装方法
+方法一需要使用git 软件包：
 
 安装脚本源码位于installer目录下
+
 git clone https://github.com/CSDCFund/csdc.git
 
 cd csdc/installer
 
 ./install.sh
 
-git 需要预先安装git包，下面是更简单的方案
 
-### 通过打包文件安装的方法
+
+### 方法二. 通过打包文件安装的方法
+方法二完全使用linux自带的命令
 
 wget -o csdcinstaller.tar.gz https://github.com/CSDCFund/csdc/blob/master/cdsc-linux-amd64.tar.gz?raw=true
 
