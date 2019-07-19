@@ -16,7 +16,9 @@
 
 安装脚本源码位于installer目录下
 git clone https://github.com/CSDCFund/csdc.git
+
 cd csdc/installer
+
 ./install.sh
 
 git 需要预先安装git包，下面是更简单的方案
@@ -24,8 +26,11 @@ git 需要预先安装git包，下面是更简单的方案
 ### 通过打包文件安装的方法
 
 wget -o csdcinstaller.tar.gz https://github.com/CSDCFund/csdc/blob/master/cdsc-linux-amd64.tar.gz?raw=true
+
 tar zvxf csdcinstaller.tar.gz
+
 cd installer
+
 ./install.sh 
 
 ## 使用
