@@ -1,0 +1,1 @@
+i parted /dev/sda mkpart primary ext4 0 100%

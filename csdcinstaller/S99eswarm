@@ -1,0 +1,18 @@
+#              to clean up any such mess.
+### END INIT INFO
+
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+
+case "$1" in
+  start)
+    iptables -t nat -A POSTROUTING -s 192.168.124.0/24 -o enp1s0 -j MASQUERADE
+
+    ifconfig wlp2s0 192.168.124.1
+  stop|restart|force-reload)
+        ;;
+  *)
+        ;;
+esac
+
+exit 0
+
