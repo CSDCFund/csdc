@@ -10,7 +10,7 @@
 
 详细的内容请查看[wiki](https://github.com/CSDCFund/csdc/wiki)
 
-API在[这里](http://api.cdscfund.org)
+API在[这里](http://api.cdscfund.org/web/#/1?page_id=1)
 
 ## 安装
 可以使用两种方法来安装云链矿机
